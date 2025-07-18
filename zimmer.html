@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrierung</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+<body>
+    <div class="head">
+    <h1>Mein Formular</h1>
+    </div>
+    <form action="cgi-bin/REGISTER.cgi">
+        <h2>Hier Registrieren</h2>
+        <label for="input1">Vorname:</label>
+        <input type="text" required="required" id="input1" name="Vorname"><br>
+        <label for="input2">Nachname:</label>
+        <input type="text" required="required" id="input2" name="Nachname"><br>
+        <label for="input3">Geschlecht:</label>
+        <input type="text" required="required" id="input3" name="Geschlecht"><br>
+        <label for="input4">Geburtsjahr:</label>
+        <input type="number" required="required" min="1900" max="2025" id="input4" name="Geburtsjahr"><br>
+        <button type="submit">Absenden</button>
+    </form>
+
+    <button onclick="fetch('cgi-bin/delete.cgi').then(() => location.reload())">Alle Einträge löschen</button>
+
+    <h3>Alle Registrierungen</h3>
+    <iframe style="margin: 30px; margin-top: 15px; height: 900px; width: 600px; border: none;" src="http://pan.th-brandenburg.de/~zimmerms/cgi-bin/Show.cgi">
+    </iframe>
+
+</body>
+</html>
