@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Interactive Compass</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Enhanced Interactive Compass</h1>
+    
+    <div class="compass-container floating">
+        <div class="compass" id="compass">
+            <div class="pattern-overlay"></div>
+            <div class="degree-markings" id="degreeMarkings"></div>
+            <div class="needle" id="needle"></div>
+            <div class="direction">
+                <span class="north">N</span>
+                <span class="south">S</span>
+                <span class="east">E</span>
+                <span class="west">W</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <div class="control-group">
+            <div class="input-group">
+                <input type="number" class="degree-input" id="degreeInput" min="0" max="360" placeholder="0-360">
+                <button class="btn" onclick="setSpecificDegree()">Set </button>
+            </div>
+        </div>
+        
+        <div class="control-group">
+            <button class="btn" onclick="pointToCardinal('north')">N</button>
+            <button class="btn" onclick="pointToCardinal('east')">E</button>
+        </div>
+        
+        <div class="control-group">
+            <button class="btn" onclick="pointToCardinal('south')">S</button>
+            <button class="btn" onclick="pointToCardinal('west')">W</button>
+        </div>
+        
+        <div class="control-group">
+            <button class="btn success" onclick="startContinuousRotation()">Auto Rotate</button>
+            <button class="btn danger" onclick="stopRotation()">Stop</button>
+        </div>
+        
+        <div class="control-group">
+            <button class="btn" onclick="randomDirection()">Random</button>
+            <button class="btn" onclick="spinCompass()">Spin</button>
+        </div>
+    </div>
+
+    <div class="info-panel">
+        <div>Current Bearing:</div>
+        <div class="current-bearing" id="currentBearing">0°</div>
+        <div style="margin-top: 10px; font-size: 0.9rem;">
+            <span id="directionText">North</span>
+        </div>
+    </div>
+
+    <script>
+        const needle = document.getElementById('needle');
+        const compass = document.getElementById('compass');
+        const degreeInput = document.getElementById('degreeInput');
+        const currentBearing = document.getElementById('currentBearing');
+        const directionText = document.getElementById('directionText');
+        let currentRotation = 0;
+        let rotationInterval;
+        let audioContext;
+        let isSpinning = false;
+
+        // Initialize audio context for sound effects
+        function initAudio() {
+            if (!audioContext) {
+                audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            }
+        }
+
+        // Play a beep sound
+        function playBeep(frequency = 800, duration = 100) {
+            initAudio();
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.frequency.value = frequency;
+            oscillator.type = 'sine';
+            
+            gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + duration / 1000);
+            
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + duration / 1000);
+        }
+
+        // Create degree markings
+        function createDegreeMarkings() {
+            const markingsContainer = document.getElementById('degreeMarkings');
+            
+            for (let i = 0; i < 360; i += 5) {
+                const mark = document.createElement('div');
+                mark.className = i % 30 === 0 ? 'degree-mark major' : 'degree-mark minor';
+                mark.style.transform = `translateX(-50%) rotate(${i}deg)`;
+                markingsContainer.appendChild(mark);
+                
+                // Add degree numbers for major marks
+                if (i % 30 === 0) {
+                    const number = document.createElement('div');
+                    number.className = 'degree-number';
+                    number.textContent = i;
+                    number.style.transform = `translateX(-50%) rotate(${i}deg)`;
+                    markingsContainer.appendChild(number);
+                }
+            }
+        }
+
+        // Update needle rotation
+        function updateNeedleRotation(degrees, smooth = true) {
+            currentRotation = degrees % 360;
+            
+            if (smooth) {
+                needle.style.transition = 'transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+            } else {
+                needle.style.transition = 'none';
+            }
+            
+            needle.style.transform = `translateX(-50%) rotate(${currentRotation}deg)`;
+            needle.style.setProperty('--target-rotation', `${currentRotation}deg`);
+            
+            // Update display
+            currentBearing.textContent = `${Math.round(currentRotation)}°`;
+            directionText.textContent = getDirectionText(currentRotation);
+            
+            // Add wobble effect
+            needle.classList.add('wobble');
+            setTimeout(() => needle.classList.remove('wobble'), 500);
+            
+            // Play sound
+            playBeep(800 + currentRotation, 80);
+        }
+
+        // Get direction text based on degrees
+        function getDirectionText(degrees) {
+            const directions = [
+                { name: 'North', min: 0, max: 11.25 },
+                { name: 'NNE', min: 11.25, max: 33.75 },
+                { name: 'NE', min: 33.75, max: 56.25 },
+                { name: 'ENE', min: 56.25, max: 78.75 },
+                { name: 'East', min: 78.75, max: 101.25 },
+                { name: 'ESE', min: 101.25, max: 123.75 },
+                { name: 'SE', min: 123.75, max: 146.25 },
+                { name: 'SSE', min: 146.25, max: 168.75 },
+                { name: 'South', min: 168.75, max: 191.25 },
+                { name: 'SSW', min: 191.25, max: 213.75 },
+                { name: 'SW', min: 213.75, max: 236.25 },
+                { name: 'WSW', min: 236.25, max: 258.75 },
+                { name: 'West', min: 258.75, max: 281.25 },
+                { name: 'WNW', min: 281.25, max: 303.75 },
+                { name: 'NW', min: 303.75, max: 326.25 },
+                { name: 'NNW', min: 326.25, max: 348.75 },
+                { name: 'North', min: 348.75, max: 360 }
+            ];
+            
+            for (const dir of directions) {
+                if (degrees >= dir.min && degrees < dir.max) {
+                    return dir.name;
+                }
+            }
+            return 'North';
+        }
+
+        // Set specific degree
+        function setSpecificDegree() {
+            const degrees = parseInt(degreeInput.value);
+            if (degrees >= 0 && degrees <= 360) {
+                updateNeedleRotation(degrees);
+                compass.classList.add('pulse');
+                setTimeout(() => compass.classList.remove('pulse'), 600);
+            }
+        }
+
+        // Point to cardinal directions
+        function pointToCardinal(direction) {
+            const cardinals = {
+                north: 0,
+                east: 90,
+                south: 180,
+                west: 270
+            };
+            
+            updateNeedleRotation(cardinals[direction]);
+            compass.classList.add('glow-effect');
+            setTimeout(() => compass.classList.remove('glow-effect'), 1000);
+        }
+
+        // Random direction
+        function randomDirection() {
+            const randomDegree = Math.floor(Math.random() * 360);
+            updateNeedleRotation(randomDegree);
+            playBeep(400 + Math.random() * 800, 150);
+        }
+
+        // Spin compass
+        function spinCompass() {
+            if (isSpinning) return;
+            
+            isSpinning = true;
+            needle.style.transition = 'transform 2s ease-out';
+            const spins = 3 + Math.random() * 2; // 3-5 full rotations
+            const finalDegree = Math.floor(Math.random() * 360);
+            const totalRotation = spins * 360 + finalDegree;
+            
+            needle.style.transform = `translateX(-50%) rotate(${totalRotation}deg)`;
+            currentRotation = finalDegree;
+            
+            // Play spinning sound
+            let frequency = 200;
+            const spinSound = setInterval(() => {
+                playBeep(frequency, 50);
+                frequency += 20;
+                if (frequency > 1000) frequency = 200;
+            }, 100);
+            
+            setTimeout(() => {
+                clearInterval(spinSound);
+                isSpinning = false;
+                currentBearing.textContent = `${Math.round(currentRotation)}°`;
+                directionText.textContent = getDirectionText(currentRotation);
+                playBeep(600, 200); // Final beep
+            }, 2000);
+        }
+
+        // Continuous rotation
+        function startContinuousRotation() {
+            stopRotation();
+            rotationInterval = setInterval(() => {
+                currentRotation = (currentRotation + 2) % 360;
+                updateNeedleRotation(currentRotation, false);
+            }, 50);
+        }
+
+        // Stop rotation
+        function stopRotation() {
+            if (rotationInterval) {
+                clearInterval(rotationInterval);
+                rotationInterval = null;
+            }
+        }
+
+        // Click on compass to set direction
+        compass.addEventListener('click', (e) => {
+            const rect = compass.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+            const angle = Math.atan2(e.clientY - centerY, e.clientX - centerX);
+            const degrees = (angle * 180 / Math.PI + 90 + 360) % 360;
+            
+            updateNeedleRotation(degrees);
+            compass.classList.add('pulse');
+            setTimeout(() => compass.classList.remove('pulse'), 600);
+        });
+
+        // Enter key support for degree input
+        degreeInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                setSpecificDegree();
+            }
+        });
+
+        // Initialize
+        createDegreeMarkings();
+        updateNeedleRotation(0);
+    </script>
+</body>
+</html>

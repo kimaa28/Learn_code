@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Städtereise Planer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../projekt/cgi-style.css">
+</head>
+<body>
+  <h1>Herzlich Willkommen beim Städte-Reiseplaner!</h1>
+  <p class="intro">
+    Hier haben Sie die Möglichkeit, Ihre Reise selbst zu planen.<br>
+    Wählen Sie ein Reiseziel, die Reisedauer und Ihren gewünschten Reisestil. <br>
+    Danach erhalten Sie einen individuellen Vorschlag für Ihre Reise!
+  </p>
+
+  <form action="../cgi-bin/projet.cgi" method="get">
+    <label for="name">Ihr Name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="stadt">Reiseziel:</label>
+    <select id="stadt" name="stadt" required>
+      <option value="" disabled selected hidden>Bitte wählen...</option>
+      <option value="Berlin">Berlin</option>
+      <option value="Rom">Rom</option>
+      <option value="Italien">Italien</option>
+    </select><br>
+
+    <label for="tage">Reisedauer (in Tagen):</label>
+    <input type="number" id="tage" name="tage" min="1" required><br>
+
+    <label>Reiseart:</label><br>
+    <input type="radio" id="kultur" name="stil" value="Kultur" checked>
+    <label for="kultur">Kultur</label><br>
+
+    <input type="radio" id="erholung" name="stil" value="Erholung">
+    <label for="erholung">Erholung</label><br>
+
+    <input type="radio" id="abenteuer" name="stil" value="Abenteuer">
+    <label for="abenteuer">Abenteuer</label><br>
+
+    <button type="submit">Reise planen</button>
+  </form>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,310 @@
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: white;
+        }
+
+        .compass-container {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .compass {
+            width: 320px;
+            height: 320px;
+            border: 12px solid #2c3e50;
+            border-radius: 50%;
+            position: relative;
+            background: radial-gradient(circle at center, #ffffff 0%, #f8f9fa 30%, #e9ecef 70%, #dee2e6 100%);
+            box-shadow: 
+                0 0 30px rgba(0, 0, 0, 0.4),
+                inset 0 0 20px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .compass:hover {
+            transform: scale(1.02);
+        }
+
+        .compass::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 16px;
+            height: 16px;
+            background: radial-gradient(circle, #2c3e50 0%, #34495e 100%);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 5;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .degree-markings {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        .degree-mark {
+            position: absolute;
+            background: #2c3e50;
+            transform-origin: bottom center;
+            left: 50%;
+            bottom: 50%;
+        }
+
+        .degree-mark.major {
+            width: 3px;
+            height: 25px;
+            margin-left: -1.5px;
+        }
+
+        .degree-mark.minor {
+            width: 1px;
+            height: 15px;
+            margin-left: -0.5px;
+        }
+
+        .degree-number {
+            position: absolute;
+            font-size: 14px;
+            font-weight: bold;
+            color: #2c3e50;
+            transform-origin: center;
+            left: 50%;
+            bottom: 50%;
+            margin-left: -10px;
+            margin-bottom: 30px;
+            width: 20px;
+            text-align: center;
+        }
+
+        .needle {
+            position: absolute;
+            width: 6px;
+            height: 120px;
+            top: 40px;
+            left: 50%;
+            transform-origin: bottom center;
+            border-radius: 3px;
+            transform: translateX(-50%) rotate(0deg);
+            transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            z-index: 4;
+        }
+
+        .needle::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 60%;
+            background: linear-gradient(180deg, #e74c3c 0%, #c0392b 100%);
+            border-radius: 3px 3px 0 0;
+            top: 0;
+            box-shadow: 0 0 8px rgba(231, 76, 60, 0.5);
+        }
+
+        .needle::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 40%;
+            background: linear-gradient(180deg, #95a5a6 0%, #7f8c8d 100%);
+            border-radius: 0 0 3px 3px;
+            bottom: 0;
+        }
+
+        .direction {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: #2c3e50;
+            z-index: 3;
+        }
+
+        .direction span {
+            position: absolute;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+        }
+
+        .north { top: 8px; left: 50%; transform: translateX(-50%); color: #e74c3c; }
+        .south { bottom: 8px; left: 50%; transform: translateX(-50%); }
+        .east  { right: 8px; top: 50%; transform: translateY(-50%); }
+        .west  { left: 8px; top: 50%; transform: translateY(-50%); }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .control-group {
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn {
+            padding: 12px 20px;
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn.danger {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+        }
+
+        .btn.danger:hover {
+            box-shadow: 0 6px 20px rgba(231, 76, 60, 0.4);
+        }
+
+        .btn.success {
+            background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+            box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+        }
+
+        .btn.success:hover {
+            box-shadow: 0 6px 20px rgba(39, 174, 96, 0.4);
+        }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .degree-input {
+            width: 80px;
+            padding: 8px 12px;
+            border: 2px solid #3498db;
+            border-radius: 15px;
+            text-align: center;
+            font-size: 16px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #2c3e50;
+        }
+
+        .degree-input:focus {
+            outline: none;
+            border-color: #2980b9;
+            box-shadow: 0 0 10px rgba(52, 152, 219, 0.3);
+        }
+
+        .info-panel {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            text-align: center;
+            min-width: 250px;
+        }
+
+        .current-bearing {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #f39c12;
+        }
+
+        .glow-effect {
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from { box-shadow: 0 0 30px rgba(52, 152, 219, 0.5); }
+            to { box-shadow: 0 0 40px rgba(52, 152, 219, 0.8); }
+        }
+
+        .wobble {
+            animation: wobble 0.5s ease-in-out;
+        }
+
+        @keyframes wobble {
+            0%, 100% { transform: translateX(-50%) rotate(var(--target-rotation)); }
+            25% { transform: translateX(-50%) rotate(calc(var(--target-rotation) + 5deg)); }
+            75% { transform: translateX(-50%) rotate(calc(var(--target-rotation) - 5deg)); }
+        }
+
+        .pulse {
+            animation: pulse 0.6s ease-in-out;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 30px;
+            background: linear-gradient(45deg, #f39c12, #e74c3c, #9b59b6);
+            background-size: 300% 300%;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradientShift 4s ease infinite;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        .pattern-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-conic-gradient(
+                from 0deg at 50% 50%, 
+                transparent 0deg, 
+                rgba(44, 62, 80, 0.05) 1deg, 
+                transparent 2deg
+            );
+            border-radius: 50%;
+            pointer-events: none;
+        }

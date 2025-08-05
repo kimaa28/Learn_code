@@ -1,0 +1,58 @@
+
+<table border="0" cellpadding="8" style="width: 70%; border-collapse: collapse;">
+    <thead>
+        <tr>
+            <th border="1" style="background-color: lightgrey; text-align: center;"  colspan="2">🧱Allgemeine Eigenschaften</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td style="background-color: white;">Marke</td><td style="background-color: white;">{fahrrad_list.get(fahrrad).Marke}</td></tr>
+        <tr><td style="background-color: lightgrey;">Modell</td><td style="background-color: lightgrey;">{fahrrad_list.get(fahrrad).model}</td></tr>
+        <tr><td style="background-color: white;">Rahmenmaterial</td><td style="background-color: white;">{fahrrad_list.get(fahrrad).rahmenmaterial}</td></tr>
+        <tr><td style="background-color: lightgrey;">Radgröße</td><td style="background-color: lightgrey;">{fahrrad_list.get(fahrrad).radgröße}</td></tr>
+        <tr><td style="background-color: white;">Gewicht</td><td style="background-color: white;">{fahrrad_list.get(fahrrad).gewicht}</td></tr>
+        <tr><td style="background-color: lightgrey;">Zulässiges Gesamtgewicht</td><td style="background-color: lightgrey;">{fahrrad_list.get(fahrrad).zulässiges_gesamtgewicht}</td></tr>
+        <tr><td style="background-color: white;">Geschlecht</td><td style="background-color: white;">{fahrrad_list.get(fahrrad).geschlecht}</td></tr>
+        <tr><td style="background-color: lightgrey;">Preis</td><td style="background-color: lightgrey;">{fahrrad_list.get(fahrrad).preis}</td></tr>
+
+        <tr><th style="background-color: grey; text-align: center;" colspan="2">⚙️Antrieb & Schaltung</th></tr>
+        
+
+        <tr><td style="background-color: white;">Antrieb</td><td style="background-color: white;">{fahrrad_list.get(fahrrad).antrieb}</td></tr>
+        <tr><td style="background-color: lightgrey;">Kettenmodell</td><td style="background-color: lightgrey;">{fahrrad_list.get(fahrrad).kettenmodell}</td></tr>
+        <tr><td style="background-color: white;">Anzahl Gänge</td><td style="background-color: white;">{fahrrad_list.get(fahrrad).anzahl_gaenge}</td></tr>
+        <tr><td style="background-color: lightgrey;">Schaltungstyp</td><td style="background-color: lightgrey;">{fahrrad_list.get(fahrrad).schaltungstyp}</td></tr>
+        <tr><td style="background-color: white;">Schaltwerk</td><td style="background-color: white;">{fahrrad_list.get(fahrrad).schaltwerk}</td></tr>
+        <tr><td style="background-color: lightgrey;">Umwerfer</td><td style="background-color: lightgrey;">{fahrrad_list.get(fahrrad).umwerfer}</td></tr>
+        <tr><td style="background-color: white;">Kassette</td><td style="background-color: white;">{fahrrad_list.get(fahrrad).kassette}</td></tr>
+
+        <tr><th style="background-color: grey; text-align: center;" colspan="2">🛑 Bremsen</th></tr>
+
+        <tr><td style="background-color: lightgrey;">Kurbelgarnitur/Bremstyp</td><td style="background-color: lightgrey;">{fahrrad_list.get(fahrrad).kurbelgarniturbremstyp}</td></tr>
+        <tr><td style="background-color: white;">Bremse vorne</td><td style="background-color: white;">{fahrrad_list.get(fahrrad).bremse_vorne}</td></tr>
+        <tr><td style="background-color: lightgrey;">Bremse hinten</td><td style="background-color: lightgrey;">{fahrrad_list.get(fahrrad).bremse_hinten}</td></tr>
+        <tr><td style="background-color: white;">Bremsscheiben</td><td style="background-color: white;">{fahrrad_list.get(fahrrad).bremsscheiben}</td></tr>
+
+        <tr><th style="background-color: grey; text-align: center;" colspan="2">🪑 Komfort & Ausstattung</th></tr>
+
+        <tr><td style="background-color: lightgrey;">Gabel</td><td style="background-color: lightgrey;">{fahrrad_list.get(fahrrad).gabel}</td></tr>
+        <tr><td style="background-color: white;">Federweg</td><td style="background-color: white;">{fahrrad_list.get(fahrrad).federweg}</td></tr>
+        <tr><td style="background-color: lightgrey;">Lenker</td><td style="background-color: lightgrey;">{fahrrad_list.get(fahrrad).lenker}</td></tr>
+        <tr><td style="background-color: white;">Sattel</td><td style="background-color: white;">{fahrrad_list.get(fahrrad).sattel}</td></tr>
+        <tr><td style="background-color: lightgrey;">Sattelstütze</td><td style="background-color: lightgrey;">{fahrrad_list.get(fahrrad).sattelstütze}</td></tr>
+        <tr><td style="background-color: white;">Pedale</td><td style="background-color: white;">{fahrrad_list.get(fahrrad).pedale}</td></tr>
+        <tr><td style="background-color: lightgrey;">Griffe (Grips)</td><td style="background-color: lightgrey;">{fahrrad_list.get(fahrrad).grips}</td></tr>
+        <tr><td style="background-color: white;">Beleuchtung</td><td style="background-color: white;">{fahrrad_list.get(fahrrad).beleuchtung}</td></tr>
+    </tbody>
+</table>
+
+
+<style>
+    .oben{
+        animation: shake 3s infinite ease-in-out;
+    }
+    @keyframes shake {
+      0%   { transform: translateY(0); }
+      50%  { transform: translateY(2px); }
+      100% { transform: translateY(0); }
+</style>

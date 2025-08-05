@@ -1,0 +1,22 @@
+body {
+	font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+	text-align:center;
+}
+
+#me {
+	width:200px;
+	height:280px; 	
+}
+
+.preview {
+	width:195px;
+	height:80px;
+}
+
+a:hover {
+	color:white;
+	background:black;
+}

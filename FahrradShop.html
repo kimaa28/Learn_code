@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FahrradShop</title>
+    <link rel="shortcut icon" href="FahrradShop-Dateien/fahrrad_logo.png">
+    <style>
+        .logo {
+            display: flex;
+            gap: 0px;
+            align-items: flex-end;
+            background-color: lightgrey;
+            margin: 10px 30px 20px 30px ;
+        }
+
+        img{
+            height: 100px;
+        }
+
+        .body{
+            margin: 10px 30px 20px 30px ;
+            background-color: aquamarine;
+        }
+
+        form label, form p, form br {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        form > * {
+            margin-bottom: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="logo">
+    <img src="FahrradShop-Dateien/fahrrad_logo.png">
+    <h1>Willkommen zu unsere FahrradShop</h1>
+    </div>
+<section class="body">    
+<fieldset>
+    <legend>datei</legend>
+
+    <form action="./cgi-bin/skript.cgi">
+        <label>
+            Vorname:
+            <input type="text" name="Vorname" value="23">
+        </label>
+        <label>
+            Nachname:
+            <input type="text" name="Nachname" value="qewju">
+        </label><br>
+        <label>
+            Geburtsdatum:
+            <input type="date" name="Geburtsdatum">
+        </label>
+        <p>Geschlecht:</p>
+        <label for="man">M�nnlich</label>
+        <input id="man" type="radio" name="Geschlecht" value="man">
+        <label for="frau">Weiblich</label>
+        <input id="frau" type="radio" name="Geschlecht" value="frau"><br>
+        <label>
+            Ihre Fahrad:
+            <input type="number" name="fahrad" min="0" max="3">
+        </label><br>
+        <p>Farbe:</p>
+        <label for="rot">Rot</label>
+        <input id="rot" type="radio" name="Farbe" value="rot">
+        <label for="blau">Blau</label>
+        <input id="blau" type="radio" name="Farbe" value="blau"><br>
+        <label>
+            Email:
+            <input type="email" name="Email" placeholder="beispiel@gmail.com">
+        </label><br>
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" name="message" type="name" rows="6" cols="50" placeholder="schreiben hier ihre Feedback"></textarea><br>
+        <input type="submit" value="absenden">
+
+
+    </form>
+    </fieldset>
+</section>
+
+
+
+
+</body></html>

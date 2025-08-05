@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> sport seite </title>
+</head>
+<body>
+<div style=" font-size:100px; blue; color:brown;">
+<h1><a href="#ancre98"></a>MELDE DICH BEI UNSEREN SPORTVEREIN AN!</h1>
+</div>
+<a href="https://www.fitnessfirst.de/"><img src="sport.webp" alt="sport" ></a>
+<form>
+<fieldset>
+<legend> Persönnliche Informationen </legend>
+<label>
+Vorname:
+<input type="text" name="vorname">
+</label></br>
+<label>
+Nachname:
+<input type="text" name="nachname" >
+</label></br>
+<label>
+Alter:
+<input type="number" value="zahlen" name="Alter" min="12"  max="120">
+</label></br>
+<label>
+E-mail:
+<input type="email" name="mail" placeholder="z. B. beispiel@gmail.com">
+</label></br>
+</fieldset>
+<label for="Lieblingssport" > Lieblinssport </label></br>
+<select name="sport" id="Lieblinssport" >
+<option value=" Fußball">Fußball</option>
+<option value="Basketball"> Basketball</option>
+<option value="Schwimmen" >Schwimmen</option>
+<option value="Tennis">Tennis</option>
+</select></br>
+<label for="Trainningstagen" > Trainningstagen</label>
+<select name="trainningstagen" id="trainningstagen" multiple="3">
+<option value="Montag">Montag</option>
+<option value="Diestag">Diestag</option>
+<option value="Mittwoch">Mittwoch</option>
+<option value="Samstag"> Samstag</option>
+<option value="sonntag">Sonntag</option>
+</select></br>
+
+<label>
+Männlich
+<input type="radio" name="geschlecht" value="männlich">
+</label>
+<label>
+Weiblich
+<input type="radio" name="geschlecht" value="weiblich">
+</label>
+<label>
+Divers
+<input type="radio" name="geschlecht" value="divers">
+</label></br>
+<label id="ancre98">
+Ich akzeptire die Teilnahme
+<input type="checkbox" name="nutzungsbedingungen" >
+</label></br>
+<label>
+Ich möchte den Newsletter erhalten
+<input type="checkbox" name="Newsletter" >
+</label></br>
+<input type="submit" value="absenden">
+</form>
+</body>
+</html>
+

@@ -1,0 +1,14 @@
+#seitenkopf {
+	color:green;
+	text-align:center;
+	font-size:2rem;
+}
+
+.info-text {
+	background-color:lightblue;
+}
+
+.warnung {
+	color:red;
+	font-weight:bold;
+}
