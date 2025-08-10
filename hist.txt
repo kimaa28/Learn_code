@@ -1,0 +1,1000 @@
+ 1003  git push --force
+ 1004  git revert 
+ 1005  git revert --abort
+ 1006  git add j.html 
+ 1007  git push --set-upstream origin master
+ 1008  git push --set-upstream origin origin/master
+ 1009  git push --set-upstream master
+ 1010  git push --set-upstream origin master
+ 1011  git push --set-upstream origin master 
+ 1012  git status 
+ 1013  git revert
+ 1014  git push --set-upstream origin master 
+ 1015  git push --set-upstream origin origin/master
+ 1016  git push --set-upstream origin master 
+ 1017  code
+ 1018  mkdir projekt
+ 1019  cd projekt/
+ 1020  ls
+ 1021  cd ..
+ 1022  pip install venv env
+ 1023  sudo apt install python3-venv
+ 1024  python3 -m venv env
+ 1025  source env/bin/activate
+ 1026  pip install customttkinter
+ 1027  pip install customtkinter
+ 1028  pip list
+ 1029  deactivate 
+ 1030  cd git-projekt/
+ 1031  sudo apt install python3-venv
+ 1032  pip -m venv env
+ 1033  python3 -m venv env
+ 1034  source env/bin/activate
+ 1035  pip install customtkinter
+ 1036  deactivate 
+ 1037  cd git-projekt/
+ 1038  mkdir daten webseite server GUI
+ 1039  ls
+ 1040  cd webseite/
+ 1041  mkdir html
+ 1042  mkdir css asset/image
+ 1043  mkdir css asset
+ 1044  ls
+ 1045  cd asset/
+ 1046  ls
+ 1047  mkdir images
+ 1048  cd ../..
+ 1049  ls
+ 1050  mkdir cgi-bin python-portable
+ 1051  ls
+ 1052  rm cgi-bin/
+ 1053  rmdir cgi-bin/
+ 1054  rmdir python-portable/
+ 1055  cd server/
+ 1056  mkdir cgi-bin python-portable
+ 1057  cd ..
+ 1058  cd GUI/
+ 1059  sudo apt install python3-venv
+ 1060  python3 -m venv env
+ 1061  source env/bin/activate
+ 1062  pip install customtkinter
+ 1063  pip list
+ 1064  clear
+ 1065  cd ..
+ 1066  ls -la
+ 1067  ls
+ 1068  mkdir lernportal
+ 1069  mv . lernportal/
+ 1070  ls
+ 1071  mv daten lernportal/
+ 1072  rmdir env/
+ 1073  deactivate 
+ 1074  ls
+ 1075  mv GUI/
+ 1076  mv GUI/ lernportal/
+ 1077  mv server/ lernportal/
+ 1078  mv webseite/ lernportal/
+ 1079  cd lernportal/
+ 1080  ls
+ 1081  cd ..
+ 1082  cd git-projekt/
+ 1083  cd lernportal/
+ 1084  git init 
+ 1085  git add .
+ 1086  git remote add origin https://github.com/kimaa28/PROJEKT.git
+ 1087  git status
+ 1088  git rm env/
+ 1089  git rm -r --cached env/
+ 1090  cd GUI/
+ 1091  ls
+ 1092  git rm -r --cached env/
+ 1093  cd ..
+ 1094  git status 
+ 1095  cd GUI/
+ 1096  git commit --amend -m "Entferne env-Ordner aus dem Commit und passe .gitignore an"
+ 1097  .gitignore
+ 1098  env.gitignore
+ 1099  git rm -r --cached env/
+ 1100  ls
+ 1101  git status 
+ 1102  cd env/
+ 1103  .gitignore
+ 1104  nano ../.gitignore
+ 1105  cd ..
+ 1106  ls
+ 1107  ls -la
+ 1108  nano .gitignore 
+ 1109  git rm -r --cached env/
+ 1110  git add .gitignore
+ 1111  git commit -m "Entferne env aus Versionierung und füge .gitignore hinzu"
+ 1112  cd .. 
+ 1113  git push
+ 1114  git add .
+ 1115  git status 
+ 1116  git commit -m "projekt"
+ 1117  git push --set-upstream origin master 
+ 1118  git push --force
+ 1119  git pull origin master --rebase
+ 1120  git push --set-upstream origin master
+ 1121  cd ..
+ 1122  git add lernportal/
+ 1123  git status 
+ 1124  git add lernportal/
+ 1125  git commit -m "projekt"
+ 1126  git push --set-upstream origin master 
+ 1127  git remote add origin https://github.com/kimaa28/PROJEKT.git
+ 1128  git push --set-upstream origin master 
+ 1129  ssh-keygen -t rsa -b 4096 -C "kitiojordan28@gmail.com"
+ 1130  git push --set-upstream origin master 
+ 1131  git romote add origin https://github.com/kimaa28/PROJEKT.git
+ 1132  git remote add origin https://github.com/kimaa28/PROJEKT.git
+ 1133  git push --force 
+ 1134  git push --set-upstream origin master
+ 1135  eval "$(ssh-agent -s)"
+ 1136  ssh-add ~/.ssh/PROJEKT
+ 1137  git reset
+ 1138  git push 
+ 1139  git push --set-upstream origin master 
+ 1140  git add lernportal/
+ 1141  git status 
+ 1142  ls
+ 1143  git add lernportal/
+ 1144  git commit -m "portal"
+ 1145  git init 
+ 1146  git remote add origin https://github.com/kimaa28/PROJEKT.git
+ 1147  git add lernportal/
+ 1148  ls
+ 1149  git push --set-upstream origin master
+ 1150  code
+ 1151  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1152  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1153  dddd/home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1154  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1155  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1156  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1157  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1158  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1159  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1160  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1161  git add register.py 
+ 1162  git status
+ 1163  git commit -m "register"
+ 1164  git push --set-upstream origin master 
+ 1165  git add login.py 
+ 1166  git commit -m "login"
+ 1167  git status
+ 1168  git push --set-upstream origin master
+ 1169  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1170  git add login.py 
+ 1171  git commit -m "login"
+ 1172  git push --set-upstream origin master 
+ 1173  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1174  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1175  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1176  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1177  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1178  code
+ 1179  source /home/kimaa/Tkinter/env/bin/activate
+ 1180  source /home/kimaa/Tkinter/env/bin/activate
+ 1181  source /home/kimaa/Tkinter/env/bin/activate
+ 1182  source /home/kimaa/Tkinter/env/bin/activate
+ 1183  source /home/kimaa/Tkinter/env/bin/activate
+ 1184  /home/kimaa/Tkinter/env/bin/python /home/kimaa/Tkinter/projekt_json.py
+ 1185  source /home/kimaa/Tkinter/env/bin/activate
+ 1186  /home/kimaa/Tkinter/env/bin/python /home/kimaa/Tkinter/custom.py
+ 1187  git pull README.md
+ 1188  git pull origin master README.md
+ 1189  git log
+ 1190  source /home/kimaa/Tkinter/env/bin/activate
+ 1191  git log
+ 1192  cd GUI/
+ 1193  source env/bin/activate
+ 1194  /bin/python3 /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1195  source env/bin/activate
+ 1196  cd GUI/
+ 1197  source env/bin/activate
+ 1198  pip list
+ 1199  pip install customtkinter
+ 1200  pip list
+ 1201  /usr/bin/python3 /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1202  source /home/kimaa/Tkinter/env/bin/activate
+ 1203  source /home/kimaa/Tkinter/env/bin/activate
+ 1204  source /home/kimaa/Tkinter/env/bin/activate
+ 1205  source /home/kimaa/Tkinter/env/bin/activate
+ 1206  source /home/kimaa/Tkinter/env/bin/activate
+ 1207  source /home/kimaa/Tkinter/env/bin/activate
+ 1208  /usr/bin/python3 /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1209  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1210  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1211  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1212  /bin/python3 /home/kimaa/Tkinter/custom.py
+ 1213  cd Tkinter/
+ 1214  /bin/python3 /home/kimaa/Tkinter/custom.py
+ 1215  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1216  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1217  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1218  pip list
+ 1219  pip list | cat customtkinter
+ 1220  pip list | cat conorama
+ 1221  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1222  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1223  source /home/kimaa/Tkinter/env/bin/activate
+ 1224  source /home/kimaa/Tkinter/env/bin/activate
+ 1225  source /home/kimaa/Tkinter/env/bin/activate
+ 1226  source /home/kimaa/Tkinter/env/bin/activate
+ 1227  source /home/kimaa/Tkinter/env/bin/activate
+ 1228  /home/kimaa/Tkinter/env/bin/python /home/kimaa/Tkinter/learn.py
+ 1229  clear
+ 1230  /home/kimaa/Tkinter/env/bin/python /home/kimaa/Tkinter/learn.py
+ 1231  clear
+ 1232  /home/kimaa/Tkinter/env/bin/python /home/kimaa/Tkinter/learn.py
+ 1233  source /home/kimaa/Tkinter/env/bin/activate
+ 1234  source /home/kimaa/Tkinter/env/bin/activate
+ 1235  code
+ 1236  cd PROJEKT/
+ 1237  lernportal/
+ 1238  cd lernportal/
+ 1239  cd GUI/
+ 1240  source env/bin/activate
+ 1241  pip list
+ 1242  cd ~
+ 1243  deactivate 
+ 1244  cd git-projekt/
+ 1245  cd lernportal/GUI/
+ 1246  source env/bin/activate
+ 1247  pip list
+ 1248  cd ~
+ 1249  cd Tkinter/
+ 1250  ./custom.py
+ 1251  chmod 700 custom.py 
+ 1252  ./custom.py
+ 1253  deactivate
+ 1254  ./custom.py
+ 1255  source env/bin/activate
+ 1256  ./custom.py
+ 1257  pip list
+ 1258  python ./custom.py 
+ 1259  exit
+ 1260  source /home/kimaa/Tkinter/env/bin/activate
+ 1261  source /home/kimaa/Tkinter/env/bin/activate
+ 1262  source /home/kimaa/Tkinter/env/bin/activate
+ 1263  /home/kimaa/Tkinter/env/bin/python /home/kimaa/Tkinter/learn.py
+ 1264  /home/kimaa/Tkinter/env/bin/python /home/kimaa/Tkinter/visuel.py
+ 1265  /home/kimaa/Tkinter/env/bin/python /home/kimaa/Tkinter/learn.py
+ 1266  source /home/kimaa/Tkinter/env/bin/activate
+ 1267  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1268  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1269  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1270  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1271  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1272  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1273  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1274  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1275  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1276  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1277  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1278  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1279  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1280  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1281  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1282  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1283  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1284  sudo apt install gnome-characters
+ 1285  mv ./Schreibtisch/Anlage\ zum\ Dienstvertrag.pdf Anlage.pdf
+ 1286  mv Anlage.pdf Downloads/
+ 1287  code
+ 1288  exit 
+ 1289  code
+ 1290  cd git-projekt/
+ 1291  cd lernportal/
+ 1292  cd GUI/
+ 1293  git add reset.py 
+ 1294  git commit -m "reset passwort"
+ 1295  git push --set-upstream origin master 
+ 1296  code
+ 1297  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1298  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1299  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1300  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1301  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1302  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1303  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1304  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1305  git add reset.py 
+ 1306  git commit  -m "reset commit"
+ 1307  git push --set-upstream  origin master 
+ 1308  git pull 
+ 1309  git pull reset.py
+ 1310  git pull PROJEKT
+ 1311  git status
+ 1312  git reset
+ 1313  git commit -m "set reset"
+ 1314  git restore reset.py 
+ 1315  git status 
+ 1316  git restore
+ 1317  git add reset.py 
+ 1318  git commit -m "second"
+ 1319  git git rm reset.py
+ 1320  git  rm reset.py
+ 1321  git status
+ 1322  git add reset.py
+ 1323  git status 
+ 1324  git pull --help
+ 1325  git pull origin master
+ 1326  git config --global 
+ 1327  git config --global master
+ 1328  git config --global origin master
+ 1329  git push --set-upstream origin master 
+ 1330  git pull --help
+ 1331  git pull.rebase
+ 1332  git pull --rebase 
+ 1333  git commit -m "second"
+ 1334  git push --set-upstream origin origin/master 
+ 1335  git add reset.py 
+ 1336  git push --set-upstream origin origin/master 
+ 1337  git commit -m " second chance"
+ 1338  [200~git add logo.ico test.py test_dash.py
+ 1339  git add .
+ 1340  git status 
+ 1341  git add ../vscode/
+ 1342  git add ../.vscode/
+ 1343  git commit -m "final test"
+ 1344  git push --set-upstream origin master
+ 1345  git push --set-upstream origin origin/master 
+ 1346  git pull origin master
+ 1347  git pull --rebase origin master
+ 1348  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1349  git push --set-upstream origin master
+ 1350  git log --oneline 
+ 1351  git show 42ebdc8
+ 1352  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1353  git pull --rebase 
+ 1354  git log --oneline 
+ 1355  git log --oneline --graph 
+ 1356  git add login.py 
+ 1357  git commit -m " login änderung"
+ 1358  git status 
+ 1359  git add login.py 
+ 1360  git commit -m "test"
+ 1361  git push --set-upstream origin master
+ 1362  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1363  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1364  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1365  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1366  source /home/kimaa/Tkinter/env/bin/activate
+ 1367  source /home/kimaa/Tkinter/env/bin/activate
+ 1368  source /home/kimaa/Tkinter/env/bin/activate
+ 1369  source /home/kimaa/Tkinter/env/bin/activate
+ 1370  /home/kimaa/Tkinter/env/bin/python /home/kimaa/Tkinter/learn.py
+ 1371  source /home/kimaa/Tkinter/env/bin/activate
+ 1372  exit
+ 1373  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1374  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1375  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1376  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1377  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1378  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1379  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1380  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1381  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1382  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1383  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1384  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1385  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1386  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1387  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1388  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1389  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1390  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1391  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1392  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1393  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1394  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1395  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1396  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1397  git add login.py 
+ 1398  git push --set-upstream origin master
+ 1399  git pull origin master
+ 1400  git push --set-upstream origin master 
+ 1401  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1402  git status
+ 1403  git push --set-upstream origin master
+ 1404  git pull master
+ 1405  git pull origin/master
+ 1406  git pull origin master
+ 1407  git add .
+ 1408  git commit -m "change login"
+ 1409  git push --set-upstream origin master
+ 1410  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1411  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1412  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1413  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1414  deactivate 
+ 1415  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1416  code
+ 1417  cd git-projekt/
+ 1418  cd lernportal/GUI/
+ 1419  ls -la
+ 1420  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1421  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1422  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1423  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1424  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1425  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1426  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1427  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1428  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1429  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1430  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1431  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1432  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1433  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1434  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1435  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1436  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1437  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1438  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1439  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1440  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1441  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1442  git status
+ 1443  git add .
+ 1444  git commit -m " change files struktur"
+ 1445  git push --set-upstream origin master 
+ 1446  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1447  git pull login.py
+ 1448  git pull PROJEKT
+ 1449  git pull origin master
+ 1450  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1451  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1452  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1453  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1454  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1455  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1456  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1457  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1458  git status
+ 1459  git log --onlin
+ 1460  git log --online
+ 1461  git log -online
+ 1462  git log --oneline 
+ 1463  git show 02658e2
+ 1464  git status
+ 1465  git add .
+ 1466  git commit -m "some change"
+ 1467  git push --set-upstream origin master 
+ 1468  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1469  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1470  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1471  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1472  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/login.py
+ 1473  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1474  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1475  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1476  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1477  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1478  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1479  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1480  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1481  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1482  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1483  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1484  git status
+ 1485  git add .
+ 1486  git commit -m " all changes are done"
+ 1487  git push --set-upstream origin master 
+ 1488  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1489  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1490  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1491  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1492  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1493  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1494  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1495  code
+ 1496  subl
+ 1497  code
+ 1498  subl
+ 1499  cd Tkinter/
+ 1500  python test.py 
+ 1501  python3 test.py 
+ 1502  source env/bin/activate
+ 1503  python3 test.py 
+ 1504  cat passlib.json 
+ 1505  cd Tkinter/
+ 1506  source env/bin/activate
+ 1507  python3 test.py 
+ 1508  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1509  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1510  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1511  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1512  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1513  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1514  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1515  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1516  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1517  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1518  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1519  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1520  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1521  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1522  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1523  git add .
+ 1524  git commit -m "register funkition checking"
+ 1525  git push --set-upstream origin master 
+ 1526  source /home/kimaa/Tkinter/env/bin/activate
+ 1527  source /home/kimaa/Tkinter/env/bin/activate
+ 1528  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1529  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1530  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1531  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1532  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1533  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1534  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1535  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1536  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1537  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1538  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1539  cd Tkinter/
+ 1540  source env/bin/activate
+ 1541  python3 test.py 
+ 1542  code
+ 1543  subl
+ 1544  cd Tkinter/
+ 1545  source env/bin/activate
+ 1546  python3 test.py 
+ 1547  cd ../git-projekt/
+ 1548  ls -la
+ 1549  cd lernportal/
+ 1550  ls -la
+ 1551  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1552  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1553  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1554  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1555  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1556  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1557  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1558  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1559  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1560  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1561  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1562  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1563  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1564  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1565  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1566  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1567  git status 
+ 1568  git add .
+ 1569  git commit -m "register checking are done"
+ 1570  git push --set-upstream origin master 
+ 1571  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1572  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1573  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1574  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1575  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/register.py
+ 1576  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1577  git status
+ 1578  git add .
+ 1579  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1580  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1581  git status
+ 1582  git push --set-upstream origin master 
+ 1583  git commit -m "check reset and delete entry are done"
+ 1584  git push --set-upstream origin master 
+ 1585  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1586  git status 
+ 1587  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1588  source /home/kimaa/Tkinter/env/bin/activate
+ 1589  source /home/kimaa/Tkinter/env/bin/activate
+ 1590  source /home/kimaa/Tkinter/env/bin/activate
+ 1591  source /home/kimaa/Tkinter/env/bin/activate
+ 1592  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1593  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1594  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1595  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1596  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1597  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1598  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1599  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1600  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1601  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1602  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1603  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1604  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1605  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1606  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1607  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1608  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1609  git status
+ 1610  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1611  git reflog
+ 1612  sude apt update
+ 1613  sudo apt update
+ 1614  code
+ 1615  subl
+ 1616  cd git-projekt/
+ 1617  cd lernportal/
+ 1618  ls
+ 1619  cd webseite/
+ 1620  ls
+ 1621  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1622  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1623  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1624  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1625  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1626  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1627  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1628  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1629  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1630  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1631  cd git-projekt/
+ 1632  cd lernportal/
+ 1633  cd webseite/
+ 1634  cd html/
+ 1635  ls
+ 1636  cat user.html 
+ 1637  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1638  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1639  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1640  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1641  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1642  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1643  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1644  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1645  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1646  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1647  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1648  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1649  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1650  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1651  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1652  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1653  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1654  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1655  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_doct.py
+ 1656  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1657  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_doct.py
+ 1658  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1659  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_doct.py
+ 1660  code
+ 1661  cd git-projekt/lernportal/GUI/user/
+ 1662  find . -file "*.html" -exec rm +
+ 1663  find . -name "*.html" -exec rm +
+ 1664  find . -name "*.html" -exec rm {} find . -name "*.html" -exec rm {} \
+ 1665  find . -name "*.html" -exec rm {} 
+ 1666  history > "history.txt"
+ 1667  grep history.txt  "find"
+ 1668  grep "find" history.txt 
+ 1669  find . -name "*.html" -exec rm {} +
+ 1670  subl
+ 1671  cd Schreibtisch/
+ 1672  find . -name "*.pdf" -exec rm {} +
+ 1673  code
+ 1674  subl
+ 1675  cd ..
+ 1676  mv code1.png ./git-projekt/lernportal/GUI/
+ 1677  cd Bilder/
+ 1678  ls
+ 1679  ls -la
+ 1680  cd ../git-projekt/lernportal/GUI/
+ 1681  find . -name "*.html" -exec rm {} +
+ 1682  ls -al
+ 1683  cd html/
+ 1684  ls 
+ 1685  cat user1.html 
+ 1686  cat user2.html 
+ 1687  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1688  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1689  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1690  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1691  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1692  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1693  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1694  CD git-projekt/lernportal/GUI/
+ 1695  cd  git-projekt/lernportal/GUI/
+ 1696  mv testo.html html_modul.html
+ 1697  ls -la
+ 1698  wc -w html_modul.html 
+ 1699  wc -b html_modul.html 
+ 1700  wc html_modul.html 
+ 1701  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1702  source /home/kimaa/git-projekt/lernportal/GUI/env/bin/activate
+ 1703  source env/bin/activate
+ 1704  ls -la
+ 1705  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1706  /bin/python3 /home/kimaa/Tkinter/test.py
+ 1707  source /home/kimaa/Tkinter/env/bin/activate
+ 1708  /home/kimaa/Tkinter/env/bin/python /home/kimaa/Tkinter/test.py
+ 1709  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1710  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1711  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/reset.py
+ 1712  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1713  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1714  code
+ 1715  subl
+ 1716  pip install Django
+ 1717  cd git-projekt/lernportal/GUI/
+ 1718  source env/bin/activate
+ 1719  pip istall Django
+ 1720  pip install Django
+ 1721  sudo pat install python3-Django
+ 1722  sudo apt install python3-Django
+ 1723  sudo apt install python3-django
+ 1724  pip install django
+ 1725  pip list
+ 1726  deactivate 
+ 1727  pip list
+ 1728  source env/bin/activate
+ 1729  pip list
+ 1730  code
+ 1731  subl
+ 1732  cd PROJEKT/
+ 1733  cd lernportal/GUI/
+ 1734  python3 ctkt.py 
+ 1735  source env/bin/activate
+ 1736  python3 ctkt.py 
+ 1737  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1738  /bin/python3 /home/kimaa/PROJEKT/lernportal/GUI/ctkt.py
+ 1739  cd PROJEKT/lernportal/GUI/
+ 1740  source env/bin/activate
+ 1741  python3 ctkt.py 
+ 1742  deactivate 
+ 1743  python3 ctkt.py 
+ 1744  ffffff
+ 1745  python3 ctkt.py 
+ 1746  echo $XDG_CURRENT_DESKTOP
+ 1747  echo $XDG_SESSION_TYPE
+ 1748  python3 ctkt.py 
+ 1749  git status
+ 1750  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1751  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1752  git add .
+ 1753  git commit -m " dashboard"
+ 1754  git push --set-upstream origin master 
+ 1755  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1756  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1757  source env/bin/activate
+ 1758  pip list
+ 1759  pip install pillow
+ 1760  code
+ 1761  subl
+ 1762  cd PROJEKT/lernportal/GUI/
+ 1763  ls 
+ 1764  cd ~
+ 1765  cd Tkinter/
+ 1766  ls
+ 1767  source env/bin/activate
+ 1768  python3 learn.py 
+ 1769  python3 custom.py 
+ 1770  python3 learn.py 
+ 1771  python3 custom.py 
+ 1772  ls
+ 1773  pix test.png 
+ 1774  pix test.webp 
+ 1775  python3 custom.py 
+ 1776  pip list
+ 1777  pip install PIL
+ 1778  deactivate 
+ 1779  pip list
+ 1780  pip install pil
+ 1781  source env/bin/activate
+ 1782  sudo apt install python3 -pil
+ 1783  sudo apt install python3-pil
+ 1784  pip list
+ 1785  sudo apt update 
+ 1786  pip list
+ 1787  sudo apt install python3-PIL
+ 1788  sudo apt install python3-pil
+ 1789  deactivate 
+ 1790  sudo apt install python3-pil
+ 1791  pil--version
+ 1792  python --version
+ 1793  python3 --version
+ 1794  pil --version
+ 1795  pip list
+ 1796  source env/bin/activate
+ 1797  pip install pillow
+ 1798  pip list
+ 1799  python3 custom.py 
+ 1800  ls
+ 1801  python3 custom.py 
+ 1802  git status
+ 1803  git add .
+ 1804  git commit -m " learn pil"
+ 1805  git log --oneline
+ 1806  git log --
+ 1807  git log --oneline master
+ 1808  git log HEAD 
+ 1809  git log master 
+ 1810  git show 604fc7a
+ 1811  git show
+ 1812  git show custom.py
+ 1813  git status 
+ 1814  pip list
+ 1815  deactivate 
+ 1816  cd ~/git-projekt/lernportal/GUI/
+ 1817  source env/bin/activate
+ 1818  pip list
+ 1819  pip install pil
+ 1820  pip install pillow
+ 1821  sudo apt install python3-pillow
+ 1822  pip list
+ 1823  pip install pillow
+ 1824  deactivate 
+ 1825  pip install pillow
+ 1826  sudo apt install python3-pillow
+ 1827  source env/bin/activate
+ 1828  pip list
+ 1829  deactivate 
+ 1830  rm  -rf env/
+ 1831  ls
+ 1832  python -m venv env
+ 1833  python3 -m venv env
+ 1834  ls
+ 1835  source env/bin/activate
+ 1836  pip list
+ 1837  pip install customtkinter
+ 1838  pip list
+ 1839  pip install pillow
+ 1840  pip list
+ 1841  cd~
+ 1842  cd ~
+ 1843  deactivate 
+ 1844  cd Tkinter/
+ 1845  source env/bin/activate
+ 1846  python3 custom.py 
+ 1847  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1848  git add .
+ 1849  git commit -m "dash ist fast finnish"
+ 1850  git push --set-upstream origin master 
+ 1851  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1852  code
+ 1853  subl
+ 1854  cd git-projekt/lernportal/GUI/
+ 1855  source env/bin/activate
+ 1856  python3 test.py 
+ 1857  deactivate 
+ 1858  exitz
+ 1859  exit
+ 1860  grep "git" user/ -exec cat {} +
+ 1861  grep  user/  "git" -exec cat {} +
+ 1862  grep "git" user/history.txt  -exec cat {} +
+ 1863  grep "git" user/history.txt 
+ 1864  cd ~
+ 1865  remote add origin  https://github.com/kimaa28/https://github.com/kimaa28/Learn_code.git
+ 1866  git remote add origin  https://github.com/kimaa28/https://github.com/kimaa28/Learn_code.git
+ 1867  git remote -v
+ 1868  git remote remove origi
+ 1869  git remote remove origin
+ 1870  git remote -v
+ 1871  git status 
+ 1872  git remote add origin https://github.com/kimaa28/Learn_code.git
+ 1873  git add .
+ 1874  git status 
+ 1875  find . -name "*.py" -exec git add {} +
+ 1876  git status 
+ 1877  git commit -m "learn"
+ 1878  find . maxdepth  -name "*.py" -exec git add {} +
+ 1879  find . -maxdepth 
+ 1880  git status
+ 1881  git reset --soft HEAD~1
+ 1882  git log --oneline 
+ 1883  git reset --soft HEAD
+ 1884  git log --oneline 
+ 1885  git reset --hard HEAD~3
+ 1886  git reset --hard HEAD~1
+ 1887  git log --oneline 
+ 1888  find . maxdepth 1 \( -name "*.py" -o -name "*.html" -o -name "*.css" -o -name "*.cgi" \) -exec git add {} + && git commit -m "learn files" && git push --set-upstream origin master 
+ 1889  git config advice.addIgnoredFile false
+ 1890  find . maxdepth 1 \( -name "*.py" -o -name "*.html" -o -name "*.css" -o -name "*.cgi" \) -exec git add {} + && git commit -m "learn files" && git push --set-upstream origin master 
+ 1891  find . -maxdepth 1 \( -name "*.py" -o -name "*.html" -o -name "*.css" -o -name "*.cgi" \) -exec git add {} + && git commit -m "learn files" && git push --set-upstream origin master 
+ 1892  git remote -v
+ 1893  git rm --cached .var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/obbokncgfcbepeipkhpdepjjoncelefj/  .vscode/ Downloads/ Komodo-Edit-12.0.1-18441-linux-x86_64/ c/ git-projekt/ opt/ && git commit -m " rm undesirable"
+ 1894  git rm -r  --cached .var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/obbokncgfcbepeipkhpdepjjoncelefj/  .vscode/ Downloads/ Komodo-Edit-12.0.1-18441-linux-x86_64/ c/ git-projekt/ opt/ && git commit -m " rm undesirable"
+ 1895  git push --set-upstream origin master 
+ 1896  code
+ 1897  subl
+ 1898  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1899  git status
+ 1900  git add .
+ 1901  git commit -m " categories"
+ 1902  git push --set-upstream origin master 
+ 1903  git remote -v
+ 1904  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1905  code
+ 1906  subl
+ 1907  ssh ag01@pan.th-brandeburg.de
+ 1908  ssh ag01@keto.th-brandeburg.de
+ 1909  exit
+ 1910  code
+ 1911  subl 
+ 1912  ~/.local/share/Trash/
+ 1913  cd ~/.local/share/Trash/
+ 1914  ls -la
+ 1915  cd files/
+ 1916  ls
+ 1917  ls -la | cd .var
+ 1918  ls -la
+ 1919  cd ~
+ 1920  cd .var/
+ 1921  ls -la
+ 1922  cd app/
+ 1923  ls -al
+ 1924  cd ~
+ 1925  git log --oneline 
+ 1926  git show 6cd7922
+ 1927  git log
+ 1928  git show af416de1ff7fce40ebf98847433727ddff7101be
+ 1929  clear
+ 1930  git log --oneline 
+ 1931  git checkout 6cd7922 -- .
+ 1932  git commit -m "Restore files from old commit"
+ 1933  git checkout HEAD^ -- *.py
+ 1934  git log --oneline 
+ 1935  git reset --hard HEAD~1
+ 1936  git push --set-upstream origin master 
+ 1937  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1938  git status 
+ 1939  git add .
+ 1940  git commit -m "courses tabs start"
+ 1941  git push --set-upstream origin master 
+ 1942  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1943  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/html_class.py
+ 1944  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1945  cd ~
+ 1946  git log --oneline 
+ 1947  git push --set-upstream origin master 
+ 1948  git pull --rebase origin master 
+ 1949  git push --set-upstream origin master 
+ 1950  git log --oneline 
+ 1951  git checkout 73ef53c -- .
+ 1952  ls -la
+ 1953  git log --oneline 
+ 1954  git reset --hard 6cd7922
+ 1955  git log --oneline 
+ 1956  git commit -m "restore"
+ 1957  git add .
+ 1958  git log --oneline 
+ 1959  git commit -m "restore"
+ 1960  git push --set-upstream origin master 
+ 1961  git show "semester.py"
+ 1962  git log --oneline 
+ 1963  git show 73ef53c -- p.py
+ 1964  git show [73ef53c] -- [p.py]
+ 1965  git show 73ef53c -- p.py
+ 1966  git show 73ef53c
+ 1967  git add .
+ 1968  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1969  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test_dash.py
+ 1970  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1971  git status 
+ 1972  git add .
+ 1973  git commit -m "course menu are done"
+ 1974  git push --set-upstream origin master 
+ 1975  /home/kimaa/git-projekt/lernportal/GUI/env/bin/python /home/kimaa/git-projekt/lernportal/GUI/test.py
+ 1976  git add .
+ 1977  git checkout 73ef53c2b843d5a04e9e9aea1e2be3270522f234 "*.py"
+ 1978  git branch backup-branch
+ 1979  git log --oneline 
+ 1980  git status
+ 1981  find . -name "*.py"
+ 1982  find . -maxdepth 1   -name "*.py"
+ 1983  find . -maxdepth 1   -name "*.html"
+ 1984  git remote -v
+ 1985  git log --oneline 
+ 1986  git show 73ef53c:p.py 
+ 1987  git show 30eafd2:p.py
+ 1988  git log --all -- p.py
+ 1989  git log --all -- ki.py
+ 1990  git log --all -- Car.py
+ 1991  git log --all -- a.txt
+ 1992  git log --all -- j.html
+ 1993  git log --all -- montag.txt
+ 1994  git ls-files | grep p.py
+ 1995  git add montag.txt 
+ 1996  git commit -m "test"
+ 1997  git log --oneline 
+ 1998  git add .
+ 1999  python3
+ 2000  exit
+ 2001  code
+ 2002  history > hist.txt
